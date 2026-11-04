@@ -1,0 +1,7 @@
+name: probe
+on: [push]
+jobs:
+  probe:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - run: uname -m && docker version --format '{{.Server.Version}}' && docker pull -q hello-world && echo OK
