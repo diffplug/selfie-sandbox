@@ -1,0 +1,4 @@
+{
+  "storybookDir": "storybook-static",
+  "buildCommand": "npm run build-storybook"
+}
