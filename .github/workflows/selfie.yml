@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 26
       - run: npm ci
-      - uses: diffplug/selfie-hackathon/.github/actions/selfie@cloud
+      - uses: diffplug/selfie-hackathon/.github/actions/selfie@main
         with:
           upload-token: ${{ secrets.SELFIE_UPLOAD_TOKEN }}
